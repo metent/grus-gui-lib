@@ -1,0 +1,14 @@
+[package]
+name = "grus-gui-lib"
+version = "0.0.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.26"
+egui = "0.22.0"
+eframe = { version = "0.22.0", features = [ "wgpu" ] }
+epaint = "0.22.0"
+num-traits = "0.2.15"
